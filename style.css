@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Karla&family=Oswald&family=Roboto+Flex&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -15,12 +16,14 @@ body{
     font-size: 25px;
     color: rgb(151, 13, 41);
     padding: 10px 10px;
+    background-color:  rgb(32, 30, 30);
 }
 nav{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    background-color:  rgb(32, 30, 30);
 }
 nav a{
     color: white;
@@ -38,19 +41,34 @@ nav ul li{
     border-radius: 10px;
 }
 
-.Aboutme{
-    height: 100%;
-    background-image: url("Nithi_Pic.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    color: rgb(220, 61, 90);
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    color: rgb(214, 220, 204);
     font-size: 20px;
-    padding: 20px;
-    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    font-family: 'Oswald', sans-serif;
     font-weight: bolder;
+    letter-spacing: 2px;
 }
 
+.img{
+    height: 120px;
+    width: 100px;
+    border-radius: 20px ;
+    position: absolute;
+    right: 20px;
+    top: 100px;
+}
+
+h5{
+    font-size: 20px;
+}
+h3{
+    font-size: 30px;
+}
 #Email{
     padding: 10px;
     width: 75%;
@@ -63,4 +81,86 @@ nav ul li{
     border: 1px solid transparent;
     padding: 10px;
     border-radius: 10px;
+}
+.main{
+   padding: 10px;
+}
+.aboutme {
+    font-size: 20px;
+    color: white;
+    letter-spacing: 1px;
+    padding: 20px;
+}
+
+.aboutme h4{
+    color: rgb(151, 13, 41);
+    font-size: 30px;
+    font-family: sans-serif;
+    padding: 5px;
+}
+
+.aboutme h5{
+    color: rgb(151, 13, 41);
+    font-size: 18px;
+    font-family: sans-serif;
+    padding: 5px;
+}
+
+.aboutme .btn{
+   margin-top: 10px;
+   width: 70px;
+}
+
+.container{
+    font-size: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+.card1, .card2, .card3{
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 10px;
+}
+.card1 i, .card2 i, .card3 i{
+    font-size: 30px;
+    color: rgb(151, 13, 41);
+}
+
+.services h4{
+    color: rgb(151, 13, 41);
+    font-size: 30px;
+    font-family: sans-serif;
+    padding: 10px;
+}
+.services h5{
+    color: rgb(151, 13, 41);
+    font-size: 18px;
+    font-family: sans-serif;
+    padding: 5px;
+}
+
+.contactus{
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.footer{
+    height: 100%;
+    width: 100%;
+    font-size: 20px;
+    color:whitesmoke;
+    text-align: center;
+    letter-spacing: 2px;
+    /* padding: 20px; */
+    gap: 20px;
+    background-color: rgb(32, 30, 30);
+}
+.footer i{
+    font-size: 30px;
+    color: rgb(151, 13, 41);
 }
