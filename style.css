@@ -147,6 +147,7 @@ h3{
     display: flex;
     flex-direction: column;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
 }
 .Myprojects a{
     color:whitesmoke;
@@ -154,6 +155,8 @@ h3{
 .contactus{
     font-size: 30px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+    text-align: center;
 }
 
 .footer{
@@ -238,13 +241,20 @@ h3{
     .card1 i, .card2 i, .card3 i{
         font-size: 40px;
     }
-    
+    .Myprojects{
+        font-size: 30px;
+        padding: 30px;
+    }
     .services h4{
         font-size: 40px;
         padding: 15px;
     }
     .services h5{
         font-size: 28px;
+    }
+    .contactus{
+        font-size: 40px;
+        padding: 30px;
     }
     .footer{
         font-size: 30px;
@@ -253,12 +263,53 @@ h3{
         font-size: 50px;
        padding: 20px;
     }
-    
-
 }
-
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 992px) {
+    nav ul li{
+        padding: 25px 25px;
+    }
+    .button{
+        padding: 10px 10px;
+        margin-right: 100px;
+    }
+    .title{
+       text-align: center;
+    }
+    #Email{
+        width: 30%;
+        margin-left: 500px;
+    }
+    .btn{
+        width: 100px;
+    }
+    .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .card1, .card2, .card3{
+        height: 280px;
+    }
+
+    .Myprojects{
+        font-size: 40px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .Myprojects h5{
+        font-size: 40px;
+    }
+    nav a:hover{
+        color: red;
+        cursor: pointer;
+    }
+    .btn:hover{
+        background-color: green;
+    }
+}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {}
